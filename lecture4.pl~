@@ -2,4 +2,13 @@ sunny.
 male(john).
 female(ann).
 likes(ann,john).
+mother(X):-female(X).
+father(X):-male(X).
+human(socrates).
+mortal(X):-human(X).
+carnivore(lion).
+eatsmeat(X):-carnivore(X).
+unit(njiru,cs2325,advancedartificialintelligence).
+unit(kiiru,cs2324,projectmanagement).
+
 
