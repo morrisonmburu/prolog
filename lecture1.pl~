@@ -1,0 +1,5 @@
+male(john).
+male(antony).
+female(ann).
+likes(john,ann).
+friend(X,Y):- likes(X,Y).
